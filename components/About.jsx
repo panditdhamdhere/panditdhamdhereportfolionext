@@ -11,7 +11,10 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Who I Am ?</h2>
+          <p className="py-2 text-gray-600">
+           I am self-Taught Programmer, incredibly curious & passionate love to solve real world problems using technology.
+           </p>
           <p className="py-2 text-gray-600">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
@@ -22,19 +25,14 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className="py-2 text-gray-600">
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
-          </p>
-          <Link href="/#projects">
+         <p>
+            Recently I started exploring new emerging Blockchain technology, & continuosly studying & understanding how Blockchain work.
+         </p>
+          {/* <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
             </p>
-          </Link>
+          </Link> */}
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
