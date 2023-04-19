@@ -10,7 +10,6 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
 
-
   const handleNav = () => {
     setNav(!nav);
   };
