@@ -7,7 +7,7 @@ import NavLogo from "../public/assets/navLogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#ecf0f3"); // #ecf0f3
   const [linkColor, setLinkColor] = useState("#1f2937");
 
   const handleNav = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h2 className="text-[#5651e5]">PanditD</h2>
+        <h2 className="text-[#5651e5] font-serif ">PanditD</h2>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
