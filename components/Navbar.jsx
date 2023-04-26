@@ -38,10 +38,10 @@ const Navbar = () => {
         <h2 className="text-[#5651e5] font-serif ">PanditD</h2>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10  text-sm text-blue-500 uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm text-blue-500 uppercase hover:border-b">
               <Link href="/#about">About</Link>
             </li>
             <li className="ml-10 text-sm text-blue-500 uppercase hover:border-b">
@@ -50,10 +50,10 @@ const Navbar = () => {
             {/* <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li> */}
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm text-blue-500 uppercase hover:border-b">
               <Link href="https://hashnode.com/@panditdhamdhere">Blog</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm text-blue-500 uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
