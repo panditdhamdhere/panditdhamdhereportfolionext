@@ -35,8 +35,11 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h2 className="text-[#5651e5] font-serif ">PanditD</h2>
+      <Link href="/"><h2 className="text-[#5651e5] font-serif ">PanditD</h2></Link>
         <div>
+       
+        <button class="bg-gray-800 text-white hover:bg-gray-700 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Click me</button>
+
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <li className="ml-10  text-sm text-blue-500 uppercase hover:border-b">
               <Link href="/">Home</Link>

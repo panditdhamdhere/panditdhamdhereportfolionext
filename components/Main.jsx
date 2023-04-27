@@ -16,8 +16,8 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies, Also I am Web 3 enthusiastic!
+            I’m self-taught programmer, focused on building responsive front-end web applications
+            integrating back-end technologies, currently exploring web 3!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
